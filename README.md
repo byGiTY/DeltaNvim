@@ -45,16 +45,24 @@
 - **Nodejs**, **Npm**
     - **Windows:** nodejs [website](https://nodejs.org/)
     - **Linux(Ubuntu):**
-        ```sh
-        sudo apt install curl
-        curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-        source ~/.bashrc
-        nvm list-remote
-        nvm install v<LTSversion>
-        nvm list
-        nvim install lts/...
-        nvm use v<LTSversion>
-        ```
+    - 
+        ```sudo apt install curl```
+
+        **(You must replace the 0.39.3 version with the latest one on [nvm-sh github repo](https://github.com/nvm-sh/nvm/releases)):**       
+        ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash```
+
+        ```source ~/.bashrc```
+      
+        ```nvm list-remote```
+      
+        ```nvm install v<LTSversion>```
+      
+        ```nvm list```
+      
+        ```nvim install lts/...```
+      
+        ```nvm use v<LTSversion>```
+        
 - **Deno**
     - **Windows:**
         - ```irm https://deno.land/install.ps1 | iex``` or check [Deno's Website](https://deno.com/) 
