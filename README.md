@@ -59,7 +59,7 @@
       
         ```nvm list```
       
-        ```nvim install lts/...```
+        ```nvm install lts/...```
       
         ```nvm use v<LTSversion>```
         
